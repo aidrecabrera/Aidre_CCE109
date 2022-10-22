@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1135178-7897-4064-8d37-995771571993" name="Changes" comment="Genesis of Lab Activities for First Year in University of Mindanao (CCE109 - Fundamentals of Computing) by Aidre Cabrera">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firstLab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLab/Main.java" afterDir="false" />
     </list>
@@ -75,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666425618967</updated>
       <workItem from="1666425620405" duration="3033000" />
-      <workItem from="1666434247217" duration="924000" />
+      <workItem from="1666434247217" duration="2031000" />
     </task>
     <task id="LOCAL-00001" summary="Genesis of Lab Activities for First Year in University of Mindanao (CCE109 - Fundamentals of Computing) by Aidre Cabrera">
       <created>1666425961928</created>
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666425961928</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Genesis of Lab Activities for First Year in University of Mindanao (CCE109 - Fundamentals of Computing) by Aidre Cabrera">
+      <created>1666437631978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666437631978</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
