@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "out": {
+      "name": "out",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "src": {
+      "name": "src",
+      "isOrdered": true,
+      "folders": {
+        "firstLab": {
+          "name": "firstLab",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "letsCheck": {
+          "name": "letsCheck",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        }
+      },
+      "files": {}
+    }
+  },
+  "files": {}
+}
