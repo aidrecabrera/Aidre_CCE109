@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1135178-7897-4064-8d37-995771571993" name="Changes" comment="Genesis of Lab Activities for First Year in University of Mindanao (CCE109 - Fundamentals of Computing) by Aidre Cabrera">
+      <change afterPath="$PROJECT_DIR$/src/letsCheck/BMI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstLab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLab/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -21,11 +22,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/firstLab/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GTvvMfSXKbj1VR2Ia8mP5BqiYM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,10 +42,36 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.firstLab.Main">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="firstLab" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BMI">
+    <configuration name="BMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letsCheck.BMI" />
+      <module name="umLabActivities" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="letsCheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <module name="umLabActivities" />
       <method v="2">
@@ -61,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BMI" />
         <item itemvalue="Application.firstLab.Main" />
       </list>
     </recent_temporary>
@@ -74,7 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666425618967</updated>
       <workItem from="1666425620405" duration="3033000" />
-      <workItem from="1666434247217" duration="2031000" />
+      <workItem from="1666434247217" duration="3766000" />
+      <workItem from="1666443862868" duration="805000" />
+      <workItem from="1666449555309" duration="6000" />
+      <workItem from="1666449682320" duration="158000" />
+      <workItem from="1666452960757" duration="992000" />
+      <workItem from="1666697650854" duration="4036000" />
+      <workItem from="1666710975313" duration="527000" />
+      <workItem from="1666756176091" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="Genesis of Lab Activities for First Year in University of Mindanao (CCE109 - Fundamentals of Computing) by Aidre Cabrera">
       <created>1666425961928</created>
@@ -90,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666437631978</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Genesis of Lab Activities for First Year in University of Mindanao (CCE109 - Fundamentals of Computing) by Aidre Cabrera">
+      <created>1666438663808</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666438663808</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
