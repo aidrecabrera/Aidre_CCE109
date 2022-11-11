@@ -21,6 +21,7 @@ public class Main {
             System.out.print("1 for Yes. 0 for No. \nPlease enter here: ");
             userSession = inputScanner.nextInt();
         } while (userSession == 1);
+        System.out.println("Thank you for using my program. Goodbye!");
     }
 }
 class Library {
