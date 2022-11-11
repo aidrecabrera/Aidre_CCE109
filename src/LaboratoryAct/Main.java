@@ -1,4 +1,4 @@
-package firstLab;
+package LaboratoryAct;
 
 import java.util.Scanner;
 

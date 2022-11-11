@@ -1,4 +1,4 @@
-package letsCheck;
+package LaboratoryAct;
 import java.util.Scanner;
 
 public class SumCalculator {

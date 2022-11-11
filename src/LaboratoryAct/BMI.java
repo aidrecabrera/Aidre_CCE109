@@ -12,7 +12,7 @@ Expected Output:
 Welcome Jackie to the Chan family.  Your weight is 60kg and your height is 1.8m.  You Body Mass index is 18.51
 
 */
-package letsCheck;
+package LaboratoryAct;
 
 import java.util.Scanner;
 
