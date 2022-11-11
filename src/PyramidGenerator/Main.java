@@ -1,6 +1,5 @@
 package PyramidGenerator;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         int userSession;
@@ -27,9 +26,9 @@ public class Main {
 class Library {
     public int number;
     void leftTriangle() {
-        for(int i = 1; i <= this.number; ++i) {
-            for(int j = 1; j <= this.number; ++j) {
-                if (j <= i) {
+        for(int pyRow = 1; pyRow <= this.number; ++pyRow) {
+            for(int pyColumn = 1; pyColumn <= this.number; ++pyColumn) {
+                if (pyColumn <= pyRow) {
                     System.out.print(" " + "*" + " ");
                 }
             }
@@ -37,9 +36,9 @@ class Library {
         }
     }
     void middlePillar() {
-        for(int i = 1; i <= this.number+1; ++i) {
-            for(int j = 1; j <= this.number+1; ++j) {
-                if (j == i) {
+        for(int pyRow = 1; pyRow <= this.number+1; ++pyRow) {
+            for(int pyColumn = 1; pyColumn <= this.number+1; ++pyColumn) {
+                if (pyColumn == pyRow) {
                     System.out.print(" " + "*" + " ");
                 }
             }
@@ -47,8 +46,8 @@ class Library {
         System.out.println();
     }
     void invertedLeftTriangle() {
-        for (int i = 0; i <= this.number; ++i) {
-            for (int j = this.number-i; j >= 1; --j) {
+        for (int pyRow = 0; pyRow <= this.number; ++pyRow) {
+            for (int pyColumn = this.number-pyRow; pyColumn >= 1; --pyColumn) {
                 System.out.print(" " + "*" + " ");
             }
             System.out.println();
