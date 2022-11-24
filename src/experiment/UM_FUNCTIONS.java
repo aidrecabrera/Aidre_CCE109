@@ -17,13 +17,16 @@ public class UM_FUNCTIONS extends UMFUNCTION_LIBRARY {
         switch (LECTURE_SESSION) {
             case 1:
                 dLec_Assignment();
+                break;
             case 2:
                 dLec_Quizzes();
+                break;
             case 3:
                 dLec_Oral();
+                break;
             case 4:
                 dLec_Research();
-            break;
+                break;
         }
     }
     void STUDENT_INPUT() {
@@ -36,7 +39,7 @@ public class UM_FUNCTIONS extends UMFUNCTION_LIBRARY {
     void dLec_Assignment() {
         do {
             System.out.println("SCORE DATABASE");
-            STUDENT_INPUT();
+            STUDENT_INPUT();j
             libraryFunctions.setAssignment(libraryFunctions.initialGrade);
             System.out.println(
                     "\n1. Continue" +
