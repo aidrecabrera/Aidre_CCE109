@@ -39,7 +39,7 @@ public class UM_FUNCTIONS extends UMFUNCTION_LIBRARY {
     void dLec_Assignment() {
         do {
             System.out.println("SCORE DATABASE");
-            STUDENT_INPUT();j
+            STUDENT_INPUT();
             libraryFunctions.setAssignment(libraryFunctions.initialGrade);
             System.out.println(
                     "\n1. Continue" +

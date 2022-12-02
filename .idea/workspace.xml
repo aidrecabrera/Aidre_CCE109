@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1135178-7897-4064-8d37-995771571993" name="Changes" comment="Refactored the variable names">
-      <change beforePath="$PROJECT_DIR$/src/PyramidGenerator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PyramidGenerator/Main.java" afterDir="false" />
+    <list default="true" id="a1135178-7897-4064-8d37-995771571993" name="Changes" comment="Refactored and Reviewed the Code (Partial)">
+      <change afterPath="$PROJECT_DIR$/src/Examinations/LEC_Pyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examinations/Lec3Examination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examinations/lec2Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LaboratoryAct/CCE109_Practicum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/experiment/UM_FUNCTIONS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/experiment/UM_FUNCTIONS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "full.screen.before.presentation.mode": "true",
+    "full.screen.before.presentation.mode": "false",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -55,9 +60,9 @@
       <recent name="firstLab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PyramidGenerator.Main">
-    <configuration name="BMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LaboratoryAct.BMI" />
+  <component name="RunManager" selected="Application.Lec3Examination">
+    <configuration name="CCE109_Practicum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LaboratoryAct.CCE109_Practicum" />
       <module name="umLabActivities" />
       <extension name="coverage">
         <pattern>
@@ -69,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GainLossCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LaboratoryAct.GainLossCalculator" />
+    <configuration name="LEC_Pyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Examinations.LEC_Pyramid" />
       <module name="umLabActivities" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LaboratoryAct.*" />
+          <option name="PATTERN" value="Examinations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaboratoryAct.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LaboratoryAct.Main" />
+    <configuration name="Lec3Examination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Examinations.Lec3Examination" />
       <module name="umLabActivities" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LaboratoryAct.*" />
+          <option name="PATTERN" value="Examinations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PyramidGenerator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PyramidGenerator.Main" />
+    <configuration name="UM_SYSTEM_UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiment.UM_SYSTEM_UI" />
       <module name="umLabActivities" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PyramidGenerator.*" />
+          <option name="PATTERN" value="experiment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LaboratoryAct.SumCalculator" />
+    <configuration name="lec2Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Examinations.lec2Exam" />
       <module name="umLabActivities" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LaboratoryAct.*" />
+          <option name="PATTERN" value="Examinations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PyramidGenerator.Main" />
-        <item itemvalue="Application.GainLossCalculator" />
-        <item itemvalue="Application.SumCalculator" />
-        <item itemvalue="Application.BMI" />
-        <item itemvalue="Application.LaboratoryAct.Main" />
+        <item itemvalue="Application.Lec3Examination" />
+        <item itemvalue="Application.CCE109_Practicum" />
+        <item itemvalue="Application.LEC_Pyramid" />
+        <item itemvalue="Application.lec2Exam" />
+        <item itemvalue="Application.UM_SYSTEM_UI" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +161,10 @@
       <workItem from="1666756176091" duration="2312000" />
       <workItem from="1666779335979" duration="97000" />
       <workItem from="1666781127539" duration="806000" />
+      <workItem from="1669268432430" duration="945000" />
+      <workItem from="1669340209893" duration="5827000" />
+      <workItem from="1669857678707" duration="3263000" />
+      <workItem from="1669942199858" duration="6487000" />
     </task>
     <task id="LOCAL-00001" summary="Genesis of Lab Activities for First Year in University of Mindanao (CCE109 - Fundamentals of Computing) by Aidre Cabrera">
       <created>1666425961928</created>
@@ -213,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668158265954</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Refactored and Reviewed the Code (Partial)">
+      <created>1669268686542</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669268686542</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +253,8 @@
     <MESSAGE value="Pyramid AlgorithmLibrary" />
     <MESSAGE value="Changed modifier of &quot;number&quot; in Main.java" />
     <MESSAGE value="Refactored the variable names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored the variable names" />
+    <MESSAGE value="Refactored and Reviewed the Code (Partial)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored and Reviewed the Code (Partial)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
