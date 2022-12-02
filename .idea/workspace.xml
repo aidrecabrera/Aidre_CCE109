@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1135178-7897-4064-8d37-995771571993" name="Changes" comment="Refactored and Reviewed the Code (Partial)">
-      <change afterPath="$PROJECT_DIR$/src/Examinations/LEC_Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examinations/Lec3Examination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examinations/lec2Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LaboratoryAct/CCE109_Practicum.java" afterDir="false" />
+    <list default="true" id="a1135178-7897-4064-8d37-995771571993" name="Changes" comment="Factorization for Lecture 3 Examination">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/UM_FUNCTIONS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/experiment/UM_FUNCTIONS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examinations/Lec3Examination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examinations/Lec3Examination.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +160,7 @@
       <workItem from="1669268432430" duration="945000" />
       <workItem from="1669340209893" duration="5827000" />
       <workItem from="1669857678707" duration="3263000" />
-      <workItem from="1669942199858" duration="6487000" />
+      <workItem from="1669942199858" duration="12024000" />
     </task>
     <task id="LOCAL-00001" summary="Genesis of Lab Activities for First Year in University of Mindanao (CCE109 - Fundamentals of Computing) by Aidre Cabrera">
       <created>1666425961928</created>
@@ -229,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669268686542</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Factorization for Lecture 3 Examination">
+      <created>1669960267938</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669960267938</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +257,8 @@
     <MESSAGE value="Changed modifier of &quot;number&quot; in Main.java" />
     <MESSAGE value="Refactored the variable names" />
     <MESSAGE value="Refactored and Reviewed the Code (Partial)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored and Reviewed the Code (Partial)" />
+    <MESSAGE value="Factorization for Lecture 3 Examination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factorization for Lecture 3 Examination" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

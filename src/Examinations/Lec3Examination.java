@@ -75,32 +75,34 @@ class FUNCTION_PARALLELOGRAM {
         }
     }
     static void case1() {
-        System.out.println("ENTER HEIGHT OF PARALLELOGRAM");
-        height = FUNC_SCANNER.nextInt();
-        System.out.println("ENTER BASE OF PARALLELOGRAM");
-        base = FUNC_SCANNER.nextInt();
-
+        System.out.print("ENTER HEIGHT OF PARALLELOGRAM: ");
+        height = Math.abs(FUNC_SCANNER.nextInt());
+        System.out.println();
+        System.out.print("ENTER BASE OF PARALLELOGRAM: ");
+        base = Math.abs(FUNC_SCANNER.nextInt());
+        System.out.println();
         AreaInput = base * height;
-
         System.out.println("AREA OF PARALLELOGRAM IS: " + AreaInput);
     }
     static void case2() {
-        System.out.println("ENTER AREA OF PARALLELOGRAM");
-        AreaInput = FUNC_SCANNER.nextInt();
-        System.out.println("ENTER BASE OF PARALLELOGRAM");
-        base = FUNC_SCANNER.nextInt();
-
+        System.out.print("ENTER AREA OF PARALLELOGRAM: ");
+        AreaInput = Math.abs(FUNC_SCANNER.nextInt());
+        System.out.println();
+        System.out.print("ENTER BASE OF PARALLELOGRAM: ");
+        base = Math.abs(FUNC_SCANNER.nextInt());
+        System.out.println();
         height = AreaInput / base;
         System.out.println("HEIGHT OF PARALLELOGRAM IS: " + height);
     }
     static void case3() {
-        System.out.println("ENTER AREA OF PARALLELOGRAM");
-        AreaInput = FUNC_SCANNER.nextInt();
-        System.out.println("ENTER HEIGHT OF PARALLELOGRAM");
-        height = FUNC_SCANNER.nextInt();
-
+        System.out.print("ENTER AREA OF PARALLELOGRAM: ");
+        AreaInput = Math.abs(FUNC_SCANNER.nextInt());
+        System.out.println();
+        System.out.print("ENTER HEIGHT OF PARALLELOGRAM: ");
+        height = Math.abs(FUNC_SCANNER.nextInt());
+        System.out.println();
         base = height / AreaInput;
-        System.out.println("BASE OF PARALLELOGRAM IS: " + height);
+        System.out.println("BASE OF PARALLELOGRAM IS: " + base);
     }
 }
 
@@ -108,28 +110,41 @@ class FUNCTION_STARGEN {
     Scanner FUNC_SCANNER = new Scanner(System.in);
     void generateStar() {
         int generateSession = 1;
-        int promptUser = 1;
-        do {
-            System.out.println("\nENTER SIZE OF STAR: ");
-            mainGenerator(FUNC_SCANNER.nextInt());
+        int tempContainer;
+        int correctInput = 0;
+        while (generateSession == 1) {
+            try {
+                do {
+                    System.out.print("\nENTER SIZE OF STAR: ");
+                    tempContainer = FUNC_SCANNER.nextInt();
+                    System.out.println();
+                    if (tempContainer < 0 ) {
+                        System.out.println("Negative Input!");
+                    } else {
+                        correctInput = 1;
+                    }
+
+                } while (correctInput == 0);
+                mainGenerator(tempContainer);
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid Input!");
+            }
 
             System.out.println();
             System.out.println("Do you want to continue?");
             System.out.println("" +
-                    "\n1 - Yes" +
-                    "\n0 - No\n");
-            System.out.print("Enter here: ");
-            promptUser = FUNC_SCANNER.nextInt();
-
-            if (promptUser == 1 || promptUser == 1) {
-                generateSession = 1;
-            } else {
+                    "\n[Y] - Yes" +
+                    "\n[N] - No\n");
+            System.out.print("Enter Here: ");
+            Boolean booleanPrompt = new Scanner(System.in).nextLine().equalsIgnoreCase("Y")?true:false;
+            if (booleanPrompt == false) {
+                System.out.println("Goodbye!");
                 generateSession = 0;
             }
-        } while (generateSession == 1);
+        }
     }
     void mainGenerator(int size) {
-        for(int row = 0; row < size; row++) {
+        for(int row = 0; row < size; row+=2) {
             for(int column = row; column < size; column++) {
                 System.out.print(" * ");
             }
@@ -157,15 +172,17 @@ class FUNC_HANDLING {
                 infContainer.add(FUNC_SCANNER.nextInt());
                 if (infContainer.get(infContainer.size()-1) < 0 ) {
                     infContainer.remove(infContainer.size()-1);
-                    System.out.println("Negative Input!");
-                    BREAKER = 1;
+                    System.out.println("Value not added as it is a negative Input!");
+                    incrementer--;
                 }
             } catch (InputMismatchException e) {
+                System.out.println();
                 System.out.println("Invalid Input!");
                 BREAKER = 1;
             }
             incrementer++;
         } while (BREAKER == 0);
-        System.out.println("List of entered values = " + infContainer);
+        System.out.println();
+        System.out.println("List of entered valid values = " + infContainer);
     }
 }
